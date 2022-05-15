@@ -5,7 +5,7 @@ import glob
 from scipy.optimize import curve_fit
 
 # paths
-base_dir = '/Users/lauragwilliams/Documents/projects/barakeet/phoneme_seequence/sequence/data'
+base_dir = '/Users/jenndisanto/Documents/2022/changlab-rotation/data/logfiles'
 
 # get list of files
 files = glob.glob('%s/EC*.csv' % (base_dir))

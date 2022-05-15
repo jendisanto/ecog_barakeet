@@ -5,7 +5,8 @@ import glob
 from scipy.optimize import curve_fit
 
 # paths
-base_dir = '/Users/lauragwilliams/Documents/projects/barakeet/phoneme_seequence/sequence/data'
+base_dir = '/Users/jenndisanto/Documents/2022/changlab-rotation/data/logfiles'
+# '/Users/lauragwilliams/Documents/projects/barakeet/phoneme_seequence/sequence/data'
 
 # get a list of the behavioural log files
 files = glob.glob('%s/EC2*.csv' % (base_dir))
